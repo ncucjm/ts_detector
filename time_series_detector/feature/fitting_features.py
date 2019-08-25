@@ -16,10 +16,15 @@ def time_series_moving_average(x):
     :type x: pandas.Series
     :return: the value of this feature
     :return type: list with float
+    
+    通过 w 确定窗口，求时间序列 x 最后时刻的值回溯 w 个序列长度值的平均值，
+    并基于不同的 w 的到不同的均值放入列表中，
+    列表中的时间窗口 w 均值分别减去序列 x 最后一个值得到最终的特征列表值 
+    
     """
     temp_list = []
     for w in range(1, min(50, DEFAULT_WINDOW), 5):
-        temp = np.mean(x[-w:])
+        temp = np.mean(x[-w:]) # get  
         temp_list.append(temp)
     return list(np.array(temp_list) - x[-1])
 
@@ -99,8 +104,9 @@ def time_series_double_exponential_weighted_moving_average(x):
             temp_list.append(s[-1] - x[-1])
     return temp_list
 
-
+    #  时间序列 周期特征
 def time_series_periodic_features(data_c_left, data_c_right, data_b_left, data_b_right, data_a):
+    
     """
     Returns the difference between the last element of data_a and the last element of data_b_left,
     the difference between the last element of data_a and the last element of data_c_left.

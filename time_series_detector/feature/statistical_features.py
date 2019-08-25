@@ -65,6 +65,7 @@ def time_series_standard_deviation(x):
 
 
 def time_series_skewness(x):
+    # 时间序列    偏度
     """
     Returns the sample skewness of x (calculated with the adjusted Fisher-Pearson standardized
     moment coefficient G1).
@@ -78,6 +79,7 @@ def time_series_skewness(x):
 
 
 def time_series_kurtosis(x):
+    # 时间序列  峰度
     """
     Returns the kurtosis of x (calculated with the adjusted Fisher-Pearson standardized
     moment coefficient G2).

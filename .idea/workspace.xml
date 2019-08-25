@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de41c689-44d9-4f11-9d88-22925cb77d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time_series_detector_/common/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time_series_detector_/pattern2redis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +13,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/time_series_detector_/common/util.py">
+        <entry file="file://$PROJECT_DIR$/outlier_detector/common/util.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
               <caret line="193" column="4" lean-forward="true" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
@@ -37,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1564">
-                <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+              <first_editor relative-caret-position="-931">
+                <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,10 +70,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="94" />
-    <option name="y" value="30" />
-    <option name="width" value="1236" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="37" />
+    <option name="width" value="1171" />
     <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -103,18 +100,18 @@
             <path>
               <item name="ts_detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="ts_detector" type="462c0819:PsiDirectoryNode" />
-              <item name="time_series_detector" type="462c0819:PsiDirectoryNode" />
+              <item name="outlier_detector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ts_detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="ts_detector" type="462c0819:PsiDirectoryNode" />
-              <item name="time_series_detector_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ts_detector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ts_detector" type="462c0819:PsiDirectoryNode" />
-              <item name="time_series_detector_" type="462c0819:PsiDirectoryNode" />
+              <item name="outlier_detector" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ts_detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ts_detector" type="462c0819:PsiDirectoryNode" />
+              <item name="time_series_detector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,6 +124,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/time_series_detector_/algorithm/ts_algorithm" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/time_series_detector_" />
       <recent name="$PROJECT_DIR$" />
@@ -208,9 +208,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="30" width="1236" height="826" extended-state="0" />
+    <frame x="67" y="37" width="1171" height="826" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21422663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2263986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,10 +240,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_series_detector_/detect.py">
+    <entry file="file://$PROJECT_DIR$/outlier_detector/detect.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_series_detector_/train.py">
+    <entry file="file://$PROJECT_DIR$/outlier_detector/train.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/time_series_detector_/algorithm/KNN.png">
@@ -269,14 +269,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_series_detector_/pattern2redis.py">
+    <entry file="file://$PROJECT_DIR$/outlier_detector/pattern2redis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_series_detector_/algorithm/isolation_forest.py">
+    <entry file="file://$PROJECT_DIR$/outlier_detector/algorithm/ts_algorithm/isolation_forest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/10.78.182.31_9005_djkglpt-web/000000_0.csv">
@@ -289,7 +289,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_series_detector_/common/util.py">
+    <entry file="file://$PROJECT_DIR$/outlier_detector/common/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="193" column="4" lean-forward="true" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
@@ -299,8 +299,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1564">
-            <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <first_editor relative-caret-position="-931">
+            <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
